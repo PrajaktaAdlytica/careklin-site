@@ -1,0 +1,10 @@
+{
+  "id": "appgdep_6ad50ad03efc8191bedbbfee8af8a7db",
+  "project_id": "appgprj_6ad4f576edc88191bc63aa6a20d57d08",
+  "version_id": "appgprj_6ad4f576edc88191bc63aa6a20d57d08~appgver_480c652f157481918eb98f08b747707c",
+  "status": "succeeded",
+  "url": "https://careklin-concept.artfullarch32.chatgpt.site",
+  "updated_at": "2026-10-18T18:07:37.139498+00:00",
+  "commit_sha": "33272b54e9d9a280acfc6684d112ba69b6d992bd",
+  "liveBrowserCheck": "New mist canvas and constraint ribbon confirmed; no runtime warnings/errors; no horizontal overflow."
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "foreground": "ink",
+    "background": "persimmon",
+    "ratio": 5.8,
+    "normalTextAA": true
+  },
+  {
+    "foreground": "ink",
+    "background": "ivory",
+    "ratio": 16.92,
+    "normalTextAA": true
+  },
+  {
+    "foreground": "muted",
+    "background": "ivory",
+    "ratio": 6.17,
+    "normalTextAA": true
+  },
+  {
+    "foreground": "positive",
+    "background": "positive-bg",
+    "ratio": 5.99,
+    "normalTextAA": true
+  },
+  {
+    "foreground": "warning",
+    "background": "warning-bg",
+    "ratio": 6.08,
+    "normalTextAA": true
+  },
+  {
+    "foreground": "danger",
+    "background": "danger-bg",
+    "ratio": 5.83,
+    "normalTextAA": true
+  },
+  {
+    "foreground": "ivory",
+    "background": "ink",
+    "ratio": 16.92,
+    "normalTextAA": true
+  },
+  {
+    "foreground": "persimmon",
+    "background": "ink",
+    "ratio": 5.8,
+    "normalTextAA": true
+  }
+]

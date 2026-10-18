@@ -1,0 +1,170 @@
+[
+  {
+    "moduleCards": [
+      {
+        "card": "module-card reveal module-card-0",
+        "labelGap": 24,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-1",
+        "labelGap": 68,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-2",
+        "labelGap": 61,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-3",
+        "labelGap": 44,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-4",
+        "labelGap": 63,
+        "copyGap": 0
+      }
+    ],
+    "proofLabelGap": null,
+    "page": "/",
+    "viewport": "1440 × 900",
+    "scrollWidth": 1440,
+    "overflow": false,
+    "pin": false,
+    "pinTop": -1810,
+    "step": "01Detect the gap",
+    "motion": "paused",
+    "brokenImages": 0,
+    "h1": 1,
+    "nav": 76,
+    "approval": null
+  },
+  {
+    "moduleCards": [
+      {
+        "card": "module-card reveal module-card-0",
+        "labelGap": 24,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-1",
+        "labelGap": 68,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-2",
+        "labelGap": 64,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-3",
+        "labelGap": 44,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-4",
+        "labelGap": 63,
+        "copyGap": -326
+      }
+    ],
+    "proofLabelGap": null,
+    "page": "/",
+    "viewport": "775 × 804",
+    "scrollWidth": 775,
+    "overflow": false,
+    "pin": false,
+    "pinTop": -2318,
+    "step": "01Detect the gap",
+    "motion": "paused",
+    "brokenImages": 0,
+    "h1": 1,
+    "nav": 76,
+    "approval": null
+  },
+  {
+    "moduleCards": [
+      {
+        "card": "module-card reveal module-card-0",
+        "labelGap": 27,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-1",
+        "labelGap": 68,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-2",
+        "labelGap": 63,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-3",
+        "labelGap": 44,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-4",
+        "labelGap": 58,
+        "copyGap": 0
+      }
+    ],
+    "proofLabelGap": null,
+    "page": "/",
+    "viewport": "390 × 844",
+    "scrollWidth": 390,
+    "overflow": false,
+    "pin": false,
+    "pinTop": -3322,
+    "step": "01Detect the gap",
+    "motion": "paused",
+    "brokenImages": 0,
+    "h1": 1,
+    "nav": 66,
+    "approval": null
+  },
+  {
+    "moduleCards": [
+      {
+        "card": "module-card reveal module-card-0",
+        "labelGap": 27,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-1",
+        "labelGap": 68,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-2",
+        "labelGap": 63,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-3",
+        "labelGap": 44,
+        "copyGap": 0
+      },
+      {
+        "card": "module-card reveal module-card-4",
+        "labelGap": 45,
+        "copyGap": 0
+      }
+    ],
+    "proofLabelGap": null,
+    "page": "/",
+    "viewport": "320 × 740",
+    "scrollWidth": 320,
+    "overflow": false,
+    "pin": false,
+    "pinTop": -3474,
+    "step": "01Detect the gap",
+    "motion": "paused",
+    "brokenImages": 0,
+    "h1": 1,
+    "nav": 66,
+    "approval": null
+  }
+]

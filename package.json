@@ -1,0 +1,29 @@
+{
+  "name": "careklin-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/routes.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test src/model.test.mjs",
+    "intro:studio": "remotion studio src/intro/Root.jsx --no-open"
+  },
+  "dependencies": {
+    "@remotion/player": "4.0.536",
+    "@remotion/transitions": "4.0.536",
+    "gsap": "3.15.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-router-dom": "7.18.4",
+    "remotion": "4.0.536"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.536",
+    "vite": "8.3.4"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

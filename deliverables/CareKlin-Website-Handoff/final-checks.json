@@ -1,0 +1,18 @@
+{
+  "pinnedStory": {
+    "viewport": "1440 × 900",
+    "activeTop": 82,
+    "afterPauseTop": 82,
+    "pinRemoved": true,
+    "stageRetained": "03 Review the next step",
+    "automaticApproval": false
+  },
+  "finalMobileWorkbench": {
+    "viewport": "320 × 740",
+    "scrollWidth": 320,
+    "overflow": false,
+    "brokenImages": 0,
+    "persistentSyntheticLabel": true
+  },
+  "hostedAccess": "Owner sign-in required; private deployment verified by native Sites result"
+}

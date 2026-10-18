@@ -1,0 +1,33 @@
+.intro-film{position:fixed;inset:0;z-index:1000;background:#f58b55;color:#fff4df;overflow:hidden;isolation:isolate;opacity:1;transition:opacity .85s cubic-bezier(.22,1,.36,1),visibility .85s}
+.intro-player,.intro-poster{position:absolute;inset:0;width:100%;height:100%}
+.intro-poster{background-position:62% center;background-size:cover}
+.intro-signature{position:absolute;left:clamp(24px,4vw,64px);top:clamp(24px,4vw,50px);display:flex;flex-direction:column;gap:9px;pointer-events:none;text-shadow:0 2px 16px #0007}
+.intro-signature>span:first-child{font:650 22px var(--body);letter-spacing:-.055em}
+.intro-signature>span:last-child{font:9px var(--mono);letter-spacing:.055em;text-transform:uppercase;opacity:.8}
+.intro-controls{position:absolute;bottom:30px;left:clamp(24px,4vw,64px);right:clamp(24px,4vw,64px);display:flex;align-items:center;justify-content:space-between;gap:20px}
+.intro-disclosure{font:9px var(--mono);letter-spacing:.06em;opacity:.75;text-shadow:0 1px 5px #000}
+.intro-disclosure span{margin:0 8px}
+.intro-actions{display:flex;gap:10px}
+.intro-actions button{border:1px solid #fff4df66;border-radius:100px;background:#15251c80;color:#fff4df;backdrop-filter:blur(10px);padding:11px 17px;font:12px var(--body);transition:background .2s,color .2s,border-color .2s;cursor:pointer}
+.intro-actions button:hover{background:#fff0d9;color:#19251d;border-color:#fff0d9}
+.intro-actions button:focus-visible{outline:2px solid #fff4df;outline-offset:4px}
+.intro-actions button:disabled{opacity:.5;cursor:default}
+.intro-actions button span{margin-left:14px}
+.intro-progress{position:absolute;bottom:0;left:0;right:0;height:2px;background:#fff5df26}
+.intro-progress span{display:block;width:100%;height:100%;background:#ffe7bd;transform-origin:left;transition:scale .5s linear}
+.intro-exiting{opacity:0;pointer-events:none;visibility:hidden}
+.intro-signature,.intro-controls,.intro-progress{transition:opacity .3s}
+.intro-exiting .intro-signature,.intro-exiting .intro-controls,.intro-exiting .intro-progress{opacity:0}
+.site-experience .nav{transition:opacity .65s ease,translate .65s cubic-bezier(.22,1,.36,1),background .3s}
+.site-experience[data-intro=loading] .nav,.site-experience[data-intro=playing] .nav{opacity:0;translate:0 -14px;pointer-events:none}
+.site-experience[data-intro=exiting] .nav{transition-delay:.25s;opacity:1;translate:0 0}
+.site-experience[data-intro=loading] .motion-toggle,.site-experience[data-intro=playing] .motion-toggle{visibility:hidden}
+.site-experience .hero-heading,.site-experience .hero-label{transition:opacity .8s ease,translate .8s cubic-bezier(.22,1,.36,1)}
+.site-experience[data-intro=loading] .hero-heading,.site-experience[data-intro=playing] .hero-heading,.site-experience[data-intro=loading] .hero-label,.site-experience[data-intro=playing] .hero-label{opacity:0;translate:0 20px}
+.site-experience[data-intro=exiting] .hero-heading,.site-experience[data-intro=exiting] .hero-label{opacity:1;translate:0 0;transition-delay:.12s}
+.intro-replay{display:inline-flex;gap:9px;align-items:center;margin-top:13px;padding:4px 0;border:0;border-bottom:1px solid currentColor;background:transparent;font:11px var(--body);color:var(--ink);cursor:pointer}
+.intro-replay:hover{opacity:.65}
+@media(max-width:600px){.intro-signature{top:25px}.intro-signature>span:last-child{max-width:200px;line-height:1.6}.intro-controls{bottom:25px;align-items:flex-end}.intro-disclosure{font-size:7px;max-width:90px;line-height:1.7}.intro-disclosure span{display:none}.intro-actions{gap:6px}.intro-actions button{font-size:11px;padding:10px 13px}.intro-actions button span{margin-left:7px}}
+@media(prefers-reduced-motion:reduce){.intro-film{transition:none}.site-experience .nav,.site-experience .hero-heading,.site-experience .hero-label{transition:none}.intro-replay{display:none}}
+/* Programmatic focus announces the hero after playback without drawing a control border. */
+.hero h1[tabindex="-1"]:focus{outline:none}
