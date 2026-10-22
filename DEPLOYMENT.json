@@ -1,6 +1,6 @@
 {
   "source_repository": "https://github.com/PrajaktaAdlytica/careklin-site",
-  "source_commit": "76b757cf9b5c02278b01bc0c3038c06ca1627fbd",
+  "source_commit": "0aaebe53ff2e896e15d8325d83c0c013f2404b34",
   "deployment_branch": "hostinger-deploy",
   "domain": "https://carekiln.com",
   "build": "npm run build",
