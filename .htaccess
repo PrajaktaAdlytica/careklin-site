@@ -1,0 +1,17 @@
+DirectoryIndex index.html
+Options -Indexes -MultiViews
+ErrorDocument 404 /404.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule (^|/)\.git(?:/|$) - [F,L,NC]
+# Preserve generated route metadata for direct links.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+# Browser routes fall back to React. Missing files retain a genuine 404.
+RewriteCond %{REQUEST_URI} !\.[^/]+$
+RewriteRule ^ index.html [L]
+</IfModule>
+<FilesMatch "^(vercel\.json|DEPLOYMENT\.json)$">
+Require all denied
+</FilesMatch>
