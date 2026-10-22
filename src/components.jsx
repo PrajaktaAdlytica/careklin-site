@@ -327,7 +327,7 @@ export function Nav() {
         <div className="nav-inner">
           <Link className="brand" to="/" aria-label="CareKiln home">
             <img
-              src="/assets/brand/logo-on-orange.svg?v=carekiln-20261022"
+              src="/assets/brand/logo-primary.svg?v=carekiln-orange-accent-20261022"
               width="167"
               height="39"
               alt="CareKiln"
