@@ -327,7 +327,7 @@ export function Nav() {
         <div className="nav-inner">
           <Link className="brand" to="/" aria-label="CareKiln home">
             <img
-              src="/assets/brand/logo-on-orange.svg"
+              src="/assets/brand/logo-on-orange.svg?v=carekiln-20261022"
               width="167"
               height="39"
               alt="CareKiln"
@@ -442,7 +442,7 @@ export function Footer() {
       <div className="container footer-top">
         <div className="footer-brand">
           <img
-            src="/assets/brand/logo-primary.svg"
+            src="/assets/brand/logo-primary.svg?v=carekiln-20261022"
             width="174"
             alt="CareKiln"
           />

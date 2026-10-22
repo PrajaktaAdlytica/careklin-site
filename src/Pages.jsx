@@ -1125,7 +1125,7 @@ export function SignIn() {
         <span className="mono">CAREKILN / CONCEPT PREVIEW</span>
       </div>
       <div className="signin-content">
-        <img src="/assets/brand/logo-primary.svg" alt="CareKiln" width="174" />
+        <img src="/assets/brand/logo-primary.svg?v=carekiln-20261022" alt="CareKiln" width="174" />
         <span className="status status-neutral">No live accounts yet</span>
         <h2>
           Explore the work.
