@@ -1,0 +1,12 @@
+{
+  "id": "appgdep_6ad50ad03efc8191bedbbfee8af8a7db",
+  "project_id": "appgprj_6ad4f576edc88191bc63aa6a20d57d08",
+  "version_id": "appgprj_6ad4f576edc88191bc63aa6a20d57d08~appgver_480c652f157481918eb98f08b747707c",
+  "status": "historical-preview-superseded",
+  "url": null,
+  "updated_at": "2026-10-18T18:07:37.139498+00:00",
+  "commit_sha": "33272b54e9d9a280acfc6684d112ba69b6d992bd",
+  "liveBrowserCheck": "Archived check predates the current brand spelling and wordmark. Recheck after deployment.",
+  "target_domain": "https://carekiln.com",
+  "domain_connection": "purchased; hosting connection pending"
+}

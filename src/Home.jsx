@@ -122,7 +122,7 @@ export default function Home() {
                 exception desk.
               </p>
               <TextLink to="/preview">Explore the demo</TextLink>
-              <button className="intro-replay" onClick={()=>window.dispatchEvent(new Event("careklin:replay-intro"))}>Watch the opening <span aria-hidden="true">↗</span></button>
+              <button className="intro-replay" onClick={()=>window.dispatchEvent(new Event("carekiln:replay-intro"))}>Watch the opening <span aria-hidden="true">↗</span></button>
               <span className="hero-note">
                 Proposed software. Synthetic examples.
                 <br />
@@ -173,7 +173,7 @@ export default function Home() {
             authorized hours all shape what can happen next.
           </p>
           <span className="small-note">
-            CareKlin’s proposed role: bring those constraints into view.
+            CareKiln’s proposed role: bring those constraints into view.
           </span>
         </div>
       </section>
@@ -216,7 +216,7 @@ export default function Home() {
             dark
           >
             <p>
-              Your scheduler and mandatory EVV stay in place. CareKlin’s
+              Your scheduler and mandatory EVV stay in place. CareKiln’s
               proposed role begins with the exceptions between them.
             </p>
             <TextLink to="/ecosystem">

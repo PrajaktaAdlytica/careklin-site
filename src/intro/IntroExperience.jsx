@@ -4,7 +4,7 @@ import {useMotion} from '../components';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
 import './intro.css';
 const FilmPlayer=lazy(()=>import('./FilmPlayer'));
-const SEEN_KEY='careklin-opening-v1';
+const SEEN_KEY='carekiln-opening-v1';
 const files=['doorstep.jpg','house.jpg','house-cutout.png','stage.jpg','doorway.jpg'];
 function hasSeen(){try{return sessionStorage.getItem(SEEN_KEY)==='seen'}catch{return false}}
 function markSeen(){try{sessionStorage.setItem(SEEN_KEY,'seen')}catch{}}
@@ -32,16 +32,16 @@ export default function IntroExperience({children}){
  useEffect(()=>{if(phase!=='exiting')return;const timer=setTimeout(()=>{setPhase('complete');requestAnimationFrame(()=>{document.querySelector('.hero h1')?.focus({preventScroll:true});ScrollTrigger.refresh()})},reduced?0:950);return()=>clearTimeout(timer)},[phase,reduced]);
  useEffect(()=>{if(reduced&&active)fail()},[reduced,active,fail]);
  useEffect(()=>{if(pathname!=='/'||hash)setPhase('complete')},[pathname,hash]);
- useEffect(()=>{const replay=()=>{if(pathname!=='/'||reduced)return;window.scrollTo({top:0,behavior:'instant'});setProgress(0);setPaused(false);setRun(r=>r+1);setPhase('loading')};window.addEventListener('careklin:replay-intro',replay);return()=>window.removeEventListener('careklin:replay-intro',replay)},[pathname,reduced]);
+ useEffect(()=>{const replay=()=>{if(pathname!=='/'||reduced)return;window.scrollTo({top:0,behavior:'instant'});setProgress(0);setPaused(false);setRun(r=>r+1);setPhase('loading')};window.addEventListener('carekiln:replay-intro',replay);return()=>window.removeEventListener('carekiln:replay-intro',replay)},[pathname,reduced]);
  return <>
   <div className="site-experience" data-intro={active?phase:'complete'} inert={active}>{children}</div>
-  {active&&<section className={`intro-film intro-${phase}`} role="dialog" aria-modal="true" aria-label="CareKlin opening film" data-intro-phase={phase}>
+  {active&&<section className={`intro-film intro-${phase}`} role="dialog" aria-modal="true" aria-label="CareKiln opening film" data-intro-phase={phase}>
    <div className="intro-poster" style={{backgroundImage:'url(/assets/intro/doorstep.jpg)'}}/>
    <div className="intro-player" aria-hidden="true">
     {phase!=='loading'&&<FilmBoundary key={run} onError={fail}><Suspense fallback={null}><FilmPlayer paused={paused||sitePaused||phase==='exiting'} onEnd={finish} onProgress={setProgress} onError={fail}/></Suspense></FilmBoundary>}
    </div>
-   <p className="sr-only">A miniature home separates into rooms. A human hand considers the alignment. The camera moves through the doorway into CareKlin’s homepage. Fictional concept imagery.</p>
-   <div className="intro-signature" aria-hidden="true"><span>CareKlin</span><span>A home. A human. A way forward.</span></div>
+   <p className="sr-only">A miniature home separates into rooms. A human hand considers the alignment. The camera moves through the doorway into CareKiln’s homepage. Fictional concept imagery.</p>
+   <div className="intro-signature" aria-hidden="true"><span>CareKiln</span><span>A home. A human. A way forward.</span></div>
    <div className="intro-controls">
     <span className="intro-disclosure">A CONCEPT FILM <span>·</span> SYNTHETIC IMAGERY</span>
     <div className="intro-actions">

@@ -168,10 +168,10 @@ export function RouteEffects() {
   useLayoutEffect(() => {
     const meta = routeMeta[pathname.replace(/\/$/, "") || "/"];
     document.title = meta
-      ? `${meta[0]} | CareKlin`
-      : "Page not found | CareKlin";
+      ? `${meta[0]} | CareKiln`
+      : "Page not found | CareKiln";
     document.querySelector('meta[name="description"]').content =
-      meta?.[1] || "CareKlin concept preview.";
+      meta?.[1] || "CareKiln concept preview.";
     if (!hash) {
       window.scrollTo({ top: 0, behavior: "instant" });
       requestAnimationFrame(() =>
@@ -325,12 +325,12 @@ export function Nav() {
         className={`nav ${scrolled ? "scrolled" : ""} ${pathname === "/" ? "nav-home" : ""}`}
       >
         <div className="nav-inner">
-          <Link className="brand" to="/" aria-label="CareKlin home">
+          <Link className="brand" to="/" aria-label="CareKiln home">
             <img
               src="/assets/brand/logo-on-orange.svg"
               width="167"
               height="39"
-              alt="CareKlin"
+              alt="CareKiln"
             />
           </Link>
           <nav
@@ -377,7 +377,7 @@ export function Nav() {
               Workflow
             </NavLink>
             <NavLink className="nav-link" to="/evaluation">
-              Why CareKlin
+              Why CareKiln
             </NavLink>
             <NavLink className="nav-link" to="/pilot">
               Pilot
@@ -444,7 +444,7 @@ export function Footer() {
           <img
             src="/assets/brand/logo-primary.svg"
             width="174"
-            alt="CareKlin"
+            alt="CareKiln"
           />
           <p>
             A little more clarity.
@@ -479,7 +479,7 @@ export function Footer() {
           ))}
         </div>
         <div>
-          <h3>CareKlin</h3>
+          <h3>CareKiln</h3>
           <Link to="/company">About</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/request-pilot">Request a pilot</Link>
@@ -488,7 +488,7 @@ export function Footer() {
         </div>
       </div>
       <div className="container footer-bottom">
-        <span>© 2026 CareKlin · Working brand. All examples synthetic.</span>
+        <span>© 2026 CareKiln · Working brand. All examples synthetic.</span>
         <div>
           <Link to="/legal/privacy">Privacy</Link>
           <Link to="/legal/terms">Terms</Link>
@@ -496,7 +496,7 @@ export function Footer() {
         </div>
       </div>
       <div className="footer-word" aria-hidden="true">
-        CareKlin<span>↗</span>
+        CareKiln<span>↗</span>
       </div>
     </footer>
   );
@@ -1218,7 +1218,7 @@ export function EcosystemDiagram() {
       </svg>
       <div className="eco-center">
         <img src="/assets/brand/symbol-orange.svg" alt="" />
-        <b>CareKlin</b>
+        <b>CareKiln</b>
         <small>Proposed review layer</small>
       </div>
       <div className="eco-node eco-one">

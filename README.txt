@@ -1,9 +1,9 @@
-CareKlin website — concept build
+CareKiln website — concept build
 18 October 2026
 
-PRIVATE SITE
-https://careklin-concept.artfullarch32.chatgpt.site
-The Sites deployment is owner-private. This is a concept website, not an operating home-care service. Deployment success is recorded in the separate website handoff.
+CUSTOM DOMAIN
+https://carekiln.com
+The domain is purchased; its Hostinger connection is in progress. This is a concept website, not an operating home-care service. Deployment success is recorded in the separate website handoff.
 
 RUN LOCALLY
 Node 22.12+ or 24 LTS recommended.
@@ -68,11 +68,11 @@ LIMITS / LAUNCH CONNECTIONS
 - Before an operating pilot: eight interviews, two replay permissions, a confirmed EVV
   route, a paid branch pilot commitment, signed data/security/human-oversight approvals
   and the state/workforce rule owners described on the site.
-- CareKlin remains a working brand; trademark clearance and domain ownership are not asserted.
+- CareKiln is a working brand; trademark clearance is not asserted. The purchased carekiln.com domain connection is pending.
 
 MOTION REFERENCE
 The user's Stripe recordings informed independent dashboard sequences, layered evidence
-panels and staged holds. UI, copy and brand assets are original to this CareKlin concept.
+panels and staged holds. UI, copy and brand assets are original to this CareKiln concept.
 GSAP reference: https://gsap.com/docs/v3/GSAP/gsap.matchMedia()/
 
 OCTOBER 2026 MOTION / COLOUR REVISION

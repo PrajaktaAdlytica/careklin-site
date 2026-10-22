@@ -26,7 +26,7 @@ export function PageHero({
     <section className={"page-hero " + tone}>
       <div className="container">
         <div className="page-breadcrumb">
-          <Link to="/">CareKlin</Link>
+          <Link to="/">CareKiln</Link>
           <span>/</span>
           <span>{eyebrow}</span>
         </div>
@@ -352,7 +352,7 @@ export function Ecosystem() {
             to earn its place.
           </>
         }
-        description="CareKlin must fit the agency’s real workflow, state rules and permitted interfaces. No current integration or vendor partnership is claimed."
+        description="CareKiln must fit the agency’s real workflow, state rules and permitted interfaces. No current integration or vendor partnership is claimed."
         tone="orange"
       />
       <section className="ecosystem-section ecosystem-page">
@@ -463,7 +463,7 @@ export function Sources() {
       </div>
       <p className="small-note">
         Official and vendor sources inform the problem context. They do not
-        establish CareKlin’s efficacy, compliance or integration capability. No
+        establish CareKiln’s efficacy, compliance or integration capability. No
         endorsement is implied.
       </p>
     </section>
@@ -790,7 +790,7 @@ export function Company() {
   return (
     <>
       <PageHero
-        eyebrow="About CareKlin"
+        eyebrow="About CareKiln"
         title={
           <>
             More room
@@ -798,7 +798,7 @@ export function Company() {
             for human judgment.
           </>
         }
-        description="CareKlin is a research-stage concept for the operations work that follows a missed home-care visit. The proposed brand and product are still being validated."
+        description="CareKiln is a research-stage concept for the operations work that follows a missed home-care visit. The proposed brand and product are still being validated."
         tone="orange"
       />
       <section className="container company-statement">
@@ -858,8 +858,9 @@ export function Company() {
           </article>
         </div>
         <p className="small-note">
-          CareKlin is a working brand. No trademark clearance or custom-domain
-          ownership is asserted.
+          CareKiln is a working brand. Trademark clearance is not asserted.
+          The purchased domain is carekiln.com; its hosting connection is
+          pending.
         </p>
       </section>
       <CTA />
@@ -884,7 +885,7 @@ export function Inquiry({ contact = false }) {
   };
   const download = () => {
     const lines = [
-      "CareKlin — local inquiry draft",
+      "CareKiln — local inquiry draft",
       "Not sent. No recipient or backend is connected.",
       "",
       ...Object.entries(done)
@@ -897,7 +898,7 @@ export function Inquiry({ contact = false }) {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = "careklin-inquiry-draft.txt";
+    a.download = "carekiln-inquiry-draft.txt";
     a.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   };
@@ -1121,10 +1122,10 @@ export function SignIn() {
           before a portal.
         </h1>
         <p>Good operations start with a clear view.</p>
-        <span className="mono">CAREKLIN / CONCEPT PREVIEW</span>
+        <span className="mono">CAREKILN / CONCEPT PREVIEW</span>
       </div>
       <div className="signin-content">
-        <img src="/assets/brand/logo-primary.svg" alt="CareKlin" width="174" />
+        <img src="/assets/brand/logo-primary.svg" alt="CareKiln" width="174" />
         <span className="status status-neutral">No live accounts yet</span>
         <h2>
           Explore the work.
@@ -1132,7 +1133,7 @@ export function SignIn() {
           No password needed.
         </h2>
         <p>
-          CareKlin is not an operating service. The synthetic exception desk is
+          CareKiln is not an operating service. The synthetic exception desk is
           open to explore, with no login, real records or connected systems.
         </p>
         <Button to="/preview">Open the concept preview</Button>
@@ -1140,7 +1141,7 @@ export function SignIn() {
           Discuss a future pilot
         </Button>
         <Link to="/" className="text-link">
-          Back to CareKlin
+          Back to CareKiln
           <Icon name="arrow-right" size={16} />
         </Link>
       </div>
@@ -1190,7 +1191,7 @@ export function Legal({ type }) {
             <h2>What this page does</h2>
             <p>
               The inquiry form keeps your entries in browser memory while this
-              page is open. Preparing a draft does not send it to CareKlin.
+              page is open. Preparing a draft does not send it to CareKiln.
               Downloading a draft creates a text file on your device. Reloading
               the page clears the form state.
             </p>
@@ -1260,7 +1261,7 @@ export function Legal({ type }) {
           <>
             <h2>A research-stage demonstration</h2>
             <p>
-              CareKlin is a proposed home-care operations concept. This website
+              CareKiln is a proposed home-care operations concept. This website
               is not an operating product, an agency service, clinical guidance,
               legal advice or a compliance determination.
             </p>
@@ -1282,14 +1283,15 @@ export function Legal({ type }) {
             <p>
               Links to CMS, state agencies and vendors provide context only.
               They do not imply a partnership, endorsement, live integration or
-              CareKlin compliance. State-specific requirements and permitted
+              CareKiln compliance. State-specific requirements and permitted
               interfaces must be confirmed with a pilot sponsor.
             </p>
             <h2>Working identity</h2>
             <p>
-              CareKlin is a working brand. Trademark clearance and custom-domain
-              ownership are not asserted. Any operating launch needs reviewed
-              legal terms, privacy notices, access rights and approvals.
+              CareKiln is a working brand. Trademark clearance is not asserted.
+              The purchased domain is carekiln.com; its hosting connection is
+              pending. Any operating launch needs reviewed legal terms, privacy
+              notices, access rights and approvals.
             </p>
           </>
         )}
@@ -1307,7 +1309,7 @@ export function NotFound() {
         <br />a way back.
       </h1>
       <p>This page isn’t part of the current concept.</p>
-      <Button to="/">Return to CareKlin</Button>
+      <Button to="/">Return to CareKiln</Button>
     </section>
   );
 }

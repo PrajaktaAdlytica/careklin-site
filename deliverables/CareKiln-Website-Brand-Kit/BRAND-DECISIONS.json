@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "brand": "CareKiln",
+  "selectedWebsite": "Bold option 1: orange editorial SaaS",
+  "selectedLogo": "Humanist option 1 \u2014 approved and vectorized",
+  "palette": {
+    "persimmon": "#F06443",
+    "ink": "#141414",
+    "ivory": "#F8F5EE"
+  },
+  "fonts": {
+    "display": "Anton",
+    "body": "Manrope",
+    "data": "IBM Plex Mono"
+  },
+  "supersedes": "Earlier forest-green Care Thread palette and all rejected logo alternatives",
+  "motion": "Purposeful layered UI loops + one pinned exception story; native scroll; explicit human review",
+  "contentAuthority": "Original startup brief and IA; concept-only disclosures and exact five offers remain",
+  "artifactScope": "Local interactive brand kit and implementation assets; not production site or product",
+  "domain": "carekiln.com",
+  "domainStatus": "Purchased; hosting connection pending"
+}

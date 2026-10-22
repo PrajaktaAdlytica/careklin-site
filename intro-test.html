@@ -1,6 +1,6 @@
 <!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Local introduction checks"><title>Intro check</title></head><body><div id="root"></div><script type="module">
 const args=new URLSearchParams(location.search);
-if(args.has('fresh'))sessionStorage.removeItem('careklin-opening-v1');
+if(args.has('fresh'))sessionStorage.removeItem('carekiln-opening-v1');
 if(args.has('reduced')){const original=window.matchMedia.bind(window);window.matchMedia=q=>q.includes('prefers-reduced-motion')?{matches:true,media:q,addEventListener(){},removeEventListener(){}}:original(q)}
 if(args.has('fail')){const OriginalImage=window.Image;window.Image=class extends OriginalImage{set src(v){if(String(v).includes('/assets/intro/'))queueMicrotask(()=>this.onerror?.(new Error('Simulated failure')));else super.src=v}}}
 let firstPlaying=null,lastPhase='',pauseScheduled=false;

@@ -61,7 +61,7 @@ export const modules = [
     output:
       "A discrepancy queue with source timestamps, review status and an owner.",
     limit:
-      "CareKlin is not an EVV replacement. Nothing is submitted to an EVV system in this preview.",
+      "CareKiln is not an EVV replacement. Nothing is submitted to an EVV system in this preview.",
     question: "Which EVV discrepancies consume the most dispatcher time today?",
   },
   {
@@ -142,7 +142,7 @@ export const gates = [
 ];
 export const faq = [
   [
-    "Is CareKlin an operating product?",
+    "Is CareKiln an operating product?",
     "Not yet. This website and the interactive preview show a research-stage concept using synthetic records. No live integrations, customers, operational results or clinical outcomes are claimed.",
   ],
   [
@@ -173,7 +173,7 @@ export const routeMeta = {
   ],
   "/products": [
     "Five proposed modules. One reviewable workflow.",
-    "Explore the five CareKlin module concepts.",
+    "Explore the five CareKiln module concepts.",
   ],
   "/how-it-works": [
     "From an absence to an accountable next step.",
@@ -189,11 +189,11 @@ export const routeMeta = {
   ],
   "/ecosystem": [
     "Work around the systems you already use.",
-    "Integration discovery for the proposed CareKlin overlay.",
+    "Integration discovery for the proposed CareKiln overlay.",
   ],
   "/evaluation": [
     "A useful pilot starts with a baseline.",
-    "The evidence, metric and readiness gates behind the CareKlin concept.",
+    "The evidence, metric and readiness gates behind the CareKiln concept.",
   ],
   "/pilot": [
     "One branch. One state. One testable workflow.",
@@ -205,7 +205,7 @@ export const routeMeta = {
   ],
   "/company": [
     "More room for human judgment.",
-    "The purpose and research stage behind CareKlin.",
+    "The purpose and research stage behind CareKiln.",
   ],
   "/request-pilot": [
     "Start with one missed-visit replay.",
@@ -217,7 +217,7 @@ export const routeMeta = {
   ],
   "/sign-in": [
     "A preview, before a portal.",
-    "There are no live CareKlin accounts yet.",
+    "There are no live CareKiln accounts yet.",
   ],
   "/legal/privacy": [
     "Privacy, in plain language.",
