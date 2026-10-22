@@ -2,7 +2,10 @@
   "source_repository": "https://github.com/PrajaktaAdlytica/careklin-site",
   "source_commit": "fb74848387049255d752945183aa22471a56fa0b",
   "deployment_branch": "hostinger-deploy",
-  "domain": "Not supplied; canonical and og:url omitted until confirmed",
+  "domain": "https://www.careklin.com",
   "build": "npm run build",
-  "note": "Compiled static output only. Rebuild from main before redeploying."
+  "note": "Compiled static output only. Rebuild from main before redeploying.",
+  "rebuild_environment": {
+    "SITE_URL": "https://www.careklin.com"
+  }
 }
