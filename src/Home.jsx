@@ -107,6 +107,10 @@ export default function Home() {
               A HUMAN IN THE LOOP. ALWAYS.
             </span>
           </div>
+          <div className="funding-announcement" role="note">
+            <span className="mono">FUNDING ANNOUNCEMENT</span>
+            <span>VC investor and funding amount to be announced.</span>
+          </div>
           <div className="hero-heading">
             <h1 tabIndex={-1}>
               <span className="hero-line">

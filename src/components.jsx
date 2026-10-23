@@ -450,6 +450,11 @@ export function Footer() {
             A little more clarity.
             <br />A human in the loop.
           </p>
+          <address className="footer-address">
+            29 Tran Quang Dieu Extended St., Ward 13, Dist. 10
+            <br />Ho Chi Minh City
+            <br />Vietnam
+          </address>
           <span className="concept-tag">
             CONCEPT PREVIEW · NOT AN OPERATING PRODUCT
           </span>

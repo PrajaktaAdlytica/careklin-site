@@ -859,9 +859,14 @@ export function Company() {
         </div>
         <p className="small-note">
           CareKiln is a working brand. Trademark clearance is not asserted.
-          The purchased domain is carekiln.com; its hosting connection is
-          pending.
+          The purchased domain is carekiln.com.
         </p>
+        <address className="company-address">
+          <strong>Company address</strong>
+          <span>29 Tran Quang Dieu Extended St., Ward 13, Dist. 10</span>
+          <span>Ho Chi Minh City</span>
+          <span>Vietnam</span>
+        </address>
       </section>
       <CTA />
     </>
